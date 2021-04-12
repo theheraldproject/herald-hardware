@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Herald_Extras)(type Legacy)(uri ${KIPRJMOD}/../../extras/kicad.lib)(options "")(descr "Herald KiCad Extras"))
+)
