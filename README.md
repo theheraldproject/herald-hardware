@@ -61,5 +61,8 @@ This repository is licensed under CERN-OHL-P v2.
 More information on this license can be found in LICENSE.txt or at 
 https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2
 
+All files in the external/ subdirectory are covered by distribution
+terms of their respectable owners.
+
 All works are copyright 2021 Herald Project Contributors. See the
 NOTICE.txt file for details.

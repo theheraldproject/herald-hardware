@@ -275,12 +275,6 @@
     (fp_text value BC833 (at -6 -0.8 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user "KEEP OUT AREA" (at 0 -16.2) (layer Cmts.User)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text user %R (at 0 -6.5) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
     (fp_line (start -5.1 -4.8) (end -5.1 -5.8) (layer F.SilkS) (width 0.12))
     (fp_line (start 5.1 -5.8) (end 5.1 -4.8) (layer F.SilkS) (width 0.12))
     (fp_line (start -5.1 -12.52) (end -5.1 -11.52) (layer F.SilkS) (width 0.12))
@@ -319,6 +313,12 @@
     (fp_line (start 5 1.88) (end 5 -12.42) (layer F.Fab) (width 0.1))
     (fp_line (start -5 1.88) (end -5 -12.42) (layer F.Fab) (width 0.1))
     (fp_line (start 5 1.88) (end -5 1.88) (layer F.Fab) (width 0.1))
+    (fp_text user "KEEP OUT AREA" (at 0 -16.2) (layer Cmts.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -6.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
     (pad 28 smd circle (at -0.5 -1.8) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad 27 smd circle (at -0.5 -2.8) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
@@ -1208,7 +1208,7 @@
       (net 56 Vdrive))
     (pad 1 smd rect (at -1.8 2.1 270) (size 0.3 0.8) (layers F.Cu F.Paste F.Mask)
       (net 63 "Net-(J3-Pad1)"))
-    (model ${KIPRJMOD}/../../extras/packages3d/TE_1-2328724-3.step
+    (model ${KIPRJMOD}/../../external/te.com/TE_1-2328724-3.step
       (offset (xyz 0 -2.12 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2419,7 +2419,7 @@
       (net 22 "/Core Board/BIO_INT"))
     (pad 1 smd rect (at -1.8 2.1 90) (size 0.3 0.8) (layers F.Cu F.Paste F.Mask)
       (net 23 "/Core Board/TMP_INT"))
-    (model ${KIPRJMOD}/../../extras/packages3d/TE_1-2328724-3.step
+    (model ${KIPRJMOD}/../../external/te.com/TE_1-2328724-3.step
       (offset (xyz 0 -2.12 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3165,7 +3165,7 @@
     (pad A2 smd rect (at -2.25 3.375 180) (size 0.25 0.75) (layers B.Cu B.Paste B.Mask))
     (pad A1 smd rect (at -3.05 3.375 180) (size 0.25 0.75) (layers B.Cu B.Paste B.Mask)
       (net 48 GNDPWR))
-    (model ${KIPRJMOD}/../../extras/packages3d/Amphenol_124018802112A.step
+    (model ${KIPRJMOD}/../../external/amphenol-icc.com/Amphenol_124018802112A.step
       (offset (xyz 0 0.25 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
