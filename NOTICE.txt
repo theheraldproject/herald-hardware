@@ -1,5 +1,24 @@
-herald-hardware
-Copyright 2021 Herald Project Contributors
+Herald Hardware
+---------------
 
-This source describes Open Hardware and is licensed under the CERN-OHL-P v2
-You may redistribute and modify this documentation and make products using it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for applicable conditions
+Copyright 2021 Herald Project Contributors.
+
+This source describes Open Hardware and is licensed under the CERN-OHL-P v2.
+
+You may redistribute and modify this documentation and make products using
+it under the terms of the CERN-OHL-P v2 (https://cern-ohl.web.cern.ch/).
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,
+INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A
+PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for applicable conditions.
+
+
+Third Party Design Files
+------------------------
+
+All files located in the external/ subdirectory are obtained from external
+third parties, or derived from files obtained from external third parties,
+and are not licensed under the same terms as the Herald Hardware project
+sources. The files are covered by the terms of distribution as described
+on the relevant source pages where these files were downloaded from.
+
+Please see the external/README for detailed description.

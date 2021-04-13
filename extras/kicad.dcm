@@ -1,0 +1,83 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP APDS-9250
+D Digital RGB, IR and Ambient Light Sensor, I2C interface, 1.7-3.6V, DFN-6
+K opto ambient light sensor
+F https://docs.broadcom.com/doc/AV02-4733EN
+$ENDCMP
+#
+$CMP AT25SF081B-MAHB-x
+D 8-Mbit, 2.7V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, UDFN-8
+K SPI DSPI QSPI 8Mbit 2.7V
+F https://www.dialog-semiconductor.com/sites/default/files/at25sf081b.pdf
+$ENDCMP
+#
+$CMP AT25SF081B-MAHD-x
+D 8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, UDFN-8
+K SPI DSPI QSPI 8Mbit 2.5V
+F https://www.dialog-semiconductor.com/sites/default/files/at25sf081b.pdf
+$ENDCMP
+#
+$CMP BC833
+D Fanstel BC833M/E Compact nRF52833 Module, PCB/U.FL Antenna
+K bc833 nrf52 nrf52833
+F https://www.fanstel.com/s/BC833M_Product_Specifications-4ep6.pdf
+$ENDCMP
+#
+$CMP MX25R8035FZxxx0
+D 8-Mbit, Ultra-low Power, Wide Range VCC, Serial Flash Memory, Reset Pin, USON-8/WSON-8
+K flash 1.65V-3.6V
+F https://www.macronix.com/Lists/Datasheet/Attachments/7934/MX25R8035F,%20Wide%20Range,%208Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP MX25R8035FZxxx1
+D 8-Mbit, Ultra-low Power, Wide Range VCC, Serial Flash Memory, Hold Pin, USON-8/WSON-8
+K flash 1.65V-3.6V
+F https://www.macronix.com/Lists/Datasheet/Attachments/7934/MX25R8035F,%20Wide%20Range,%208Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP PCF85063ATL
+D Realtime Clock/Calendar I2C Interface, DFN-10
+K I2C RTC Clock Calendar
+F https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf
+$ENDCMP
+#
+$CMP S-85S1A
+D 5.5 V, 200 mA synchronous step-down switching regulator with 260 nA quiescent current
+F https://www.ablic.com/en/doc/datasheet/switching_regulator/S85S1A_E.pdf
+$ENDCMP
+#
+$CMP TCR3UFxxA
+D Ultra low quiescent current, Fast Load Transient 300 mA CMOS LDO with Auto-Discharge, Fixed Output, SC-74A-5
+K linear regulator ldo fixed positive
+F https://toshiba.semicon-storage.com/ap-en/semiconductor/product/power-management-ics/low-dropout-regulators-ldo-regulators/detail.TCR3UF10A.html
+$ENDCMP
+#
+$CMP TCR3UFxxB
+D Ultra low quiescent current, Fast Load Transient 300 mA CMOS LDO, Fixed Output, SC-74A-5
+K linear regulator ldo fixed positive
+F https://toshiba.semicon-storage.com/ap-en/semiconductor/product/power-management-ics/low-dropout-regulators-ldo-regulators/detail.TCR3UF10A.html
+$ENDCMP
+#
+$CMP TMP1075
+D Digital Temperature Sensor in LM75 package, SOIC-8, VSSOP-8, WSON-8
+K Temperature sensor LM75
+F https://www.ti.com/lit/ds/symlink/tmp1075.pdf
+$ENDCMP
+#
+$CMP TVS4-563
+D Generic 4-channel low capacitance TVS diode array, SOT-563
+K ESD Protection diodes transient suppressor
+$ENDCMP
+#
+$CMP VDD1
+D Power symbol creates a global label with name "VDD1"
+K power-flag
+$ENDCMP
+#
+$CMP VDD2
+D Power symbol creates a global label with name "VDD2"
+K power-flag
+$ENDCMP
+#
+#End Doc Library
