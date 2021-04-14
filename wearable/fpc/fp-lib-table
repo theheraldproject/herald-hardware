@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Herald_Wearable_FPC)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr "Herald Wearable FPC Local Footprints"))
+  (lib (name Herald_Extras)(type KiCad)(uri ${KIPRJMOD}/../../extras/kicad.pretty)(options "")(descr "Herald KiCad Extras"))
+)
