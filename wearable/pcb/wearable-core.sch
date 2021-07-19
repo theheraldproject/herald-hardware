@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 3
 Title "Herald Bluetooth Wearable Beacon"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp "Herald Project"
 Comment1 "© 2021 Herald Project Contributors"
 Comment2 "Licensed under CERN-OHL-P version 2"
@@ -168,9 +168,9 @@ F 3 "" H 3000 800 50  0001 C CNN
 	1    3000 800 
 	1    0    0    -1  
 $EndComp
-Text Label 3000 1400 0    50   ~ 0
+Text Label 2700 1350 0    50   ~ 0
 USB_D-
-Text Label 3000 1500 0    50   ~ 0
+Text Label 2700 1550 0    50   ~ 0
 USB_D+
 Wire Wire Line
 	2100 1450 2200 1450
@@ -700,31 +700,7 @@ F 3 "" H 2550 1150 50  0001 C CNN
 	1    2550 1150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Pack02 RN1
-U 1 1 6064B6E9
-P 2800 1400
-F 0 "RN1" V 2483 1400 50  0000 C CNN
-F 1 "22R" V 2574 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_2x0402" V 2975 1400 50  0001 C CNN
-F 3 "~" H 2800 1400 50  0001 C CNN
-F 4 "Resistor network" H 2800 1400 50  0001 C CNN "Description"
-F 5 "YC122-JR-0722RL" H 2800 1400 50  0001 C CNN "MPN"
-	1    2800 1400
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	2300 1350 2500 1350
-Wire Wire Line
-	2500 1350 2500 1400
-Wire Wire Line
-	2500 1400 2600 1400
 Connection ~ 2300 1350
-Wire Wire Line
-	2600 1500 2500 1500
-Wire Wire Line
-	2500 1500 2500 1550
-Connection ~ 2500 1550
 $Comp
 L Device:C C2
 U 1 1 605097D4
@@ -2158,4 +2134,9 @@ Text Notes 650  5650 0    50   ~ 0
 optional
 Text Notes 2100 5650 0    50   ~ 0
 optional
+Wire Wire Line
+	2700 1550 2500 1550
+Connection ~ 2500 1550
+Wire Wire Line
+	2300 1350 2700 1350
 $EndSCHEMATC
