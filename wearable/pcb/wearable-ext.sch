@@ -772,6 +772,8 @@ F 0 "TP112" H 3642 6526 50  0000 R CNN
 F 1 "ThPad" H 3642 6617 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 3900 6500 50  0001 C CNN
 F 3 "~" H 3900 6500 50  0001 C CNN
+F 4 "Thermal Pad" H 3700 6500 50  0001 C CNN "Description"
+F 5 "~" H 3700 6500 50  0001 C CNN "MPN"
 	1    3700 6500
 	-1   0    0    1   
 $EndComp
@@ -795,6 +797,8 @@ F 0 "H2" H 3600 7146 50  0000 L CNN
 F 1 "ThermalSlot" H 3600 7055 50  0000 L CNN
 F 2 "Herald_Extras:MillSlot_8.0x1.0mm" H 3500 7100 50  0001 C CNN
 F 3 "~" H 3500 7100 50  0001 C CNN
+F 4 "Thermal Slot" H 3500 7100 50  0001 C CNN "Description"
+F 5 "~" H 3500 7100 50  0001 C CNN "MPN"
 	1    3500 7100
 	1    0    0    -1  
 $EndComp
