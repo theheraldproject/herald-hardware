@@ -802,4 +802,8 @@ F 5 "~" H 3500 7100 50  0001 C CNN "MPN"
 	1    3500 7100
 	1    0    0    -1  
 $EndComp
+Text Notes 6250 2600 0    50   ~ 0
+interrupt config:\nOD, should be pulled up
+Text Notes 2150 6250 0    50   ~ 0
+interrupt config:\nOD, should be pulled up
 $EndSCHEMATC

@@ -2143,4 +2143,10 @@ Text Notes 7500 5550 2    50   ~ 0
 2.5V, 1mA
 Text Notes 5650 2800 0    50   ~ 0
 Jumper to avoid vias in ESD area
+Text Notes 2650 4700 0    50   ~ 0
+interrupt config:\nP/P to GND
+Text Notes 10450 4700 0    50   ~ 0
+interrupt config:\nOD, should be\npulled up
+Text Notes 4700 4550 0    50   ~ 0
+interrupt config:\nOD, should be\npulled up
 $EndSCHEMATC
