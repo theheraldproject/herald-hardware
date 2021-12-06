@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 3
 Title "Herald Bluetooth Wearable Beacon"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp "Herald Project"
 Comment1 "© 2021 Herald Project Contributors"
 Comment2 "Licensed under CERN-OHL-P version 2"
@@ -168,9 +168,9 @@ F 3 "" H 3000 800 50  0001 C CNN
 	1    3000 800 
 	1    0    0    -1  
 $EndComp
-Text Label 3000 1400 0    50   ~ 0
+Text Label 2700 1350 0    50   ~ 0
 USB_D-
-Text Label 3000 1500 0    50   ~ 0
+Text Label 2700 1550 0    50   ~ 0
 USB_D+
 Wire Wire Line
 	2100 1450 2200 1450
@@ -204,11 +204,11 @@ L Device:R_US R22
 U 1 1 6054671C
 P 5400 1350
 F 0 "R22" V 5195 1350 50  0000 C CNN
-F 1 "Tune" V 5286 1350 50  0000 C CNN
+F 1 "5.6k" V 5286 1350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5440 1340 50  0001 C CNN
 F 3 "~" H 5400 1350 50  0001 C CNN
 F 4 "Resistor, 1%, 100mW" H 5400 1350 50  0001 C CNN "Description"
-F 5 "RC0402FR-7W10KL" H 5400 1350 50  0001 C CNN "MPN"
+F 5 "RC0402FR-075R6L" H 5400 1350 50  0001 C CNN "MPN"
 	1    5400 1350
 	0    1    1    0   
 $EndComp
@@ -700,31 +700,7 @@ F 3 "" H 2550 1150 50  0001 C CNN
 	1    2550 1150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Pack02 RN1
-U 1 1 6064B6E9
-P 2800 1400
-F 0 "RN1" V 2483 1400 50  0000 C CNN
-F 1 "22R" V 2574 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_2x0402" V 2975 1400 50  0001 C CNN
-F 3 "~" H 2800 1400 50  0001 C CNN
-F 4 "Resistor network" H 2800 1400 50  0001 C CNN "Description"
-F 5 "YC122-JR-0722RL" H 2800 1400 50  0001 C CNN "MPN"
-	1    2800 1400
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	2300 1350 2500 1350
-Wire Wire Line
-	2500 1350 2500 1400
-Wire Wire Line
-	2500 1400 2600 1400
 Connection ~ 2300 1350
-Wire Wire Line
-	2600 1500 2500 1500
-Wire Wire Line
-	2500 1500 2500 1550
-Connection ~ 2500 1550
 $Comp
 L Device:C C2
 U 1 1 605097D4
@@ -1172,11 +1148,11 @@ L Device:R_US R2
 U 1 1 60682830
 P 8550 5850
 F 0 "R2" V 8345 5850 50  0000 C CNN
-F 1 "Tune" V 8436 5850 50  0000 C CNN
+F 1 "3.9k" V 8436 5850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8590 5840 50  0001 C CNN
 F 3 "~" H 8550 5850 50  0001 C CNN
 F 4 "Resistor, 1%, 100mW" H 8550 5850 50  0001 C CNN "Description"
-F 5 "RC0402FR-7W10KL" H 8550 5850 50  0001 C CNN "MPN"
+F 5 "RC0402FR-073K9L" H 8550 5850 50  0001 C CNN "MPN"
 	1    8550 5850
 	0    1    1    0   
 $EndComp
@@ -1185,11 +1161,11 @@ L Device:R_US R1
 U 1 1 6068433B
 P 8550 5550
 F 0 "R1" V 8345 5550 50  0000 C CNN
-F 1 "Tune" V 8436 5550 50  0000 C CNN
+F 1 "0" V 8436 5550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8590 5540 50  0001 C CNN
 F 3 "~" H 8550 5550 50  0001 C CNN
 F 4 "Resistor, 1%, 100mW" H 8550 5550 50  0001 C CNN "Description"
-F 5 "RC0402FR-7W10KL" H 8550 5550 50  0001 C CNN "MPN"
+F 5 "RC0402FR-070RL" H 8550 5550 50  0001 C CNN "MPN"
 	1    8550 5550
 	0    1    1    0   
 $EndComp
@@ -1198,11 +1174,11 @@ L Device:R_US R3
 U 1 1 606847AC
 P 8550 6150
 F 0 "R3" V 8345 6150 50  0000 C CNN
-F 1 "Tune" V 8436 6150 50  0000 C CNN
+F 1 "1k" V 8436 6150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8590 6140 50  0001 C CNN
 F 3 "~" H 8550 6150 50  0001 C CNN
 F 4 "Resistor, 1%, 100mW" H 8550 6150 50  0001 C CNN "Description"
-F 5 "RC0402FR-7W10KL" H 8550 6150 50  0001 C CNN "MPN"
+F 5 "RC0402FR-071KL" H 8550 6150 50  0001 C CNN "MPN"
 	1    8550 6150
 	0    1    1    0   
 $EndComp
@@ -1536,11 +1512,11 @@ L Device:C C14
 U 1 1 60BDEEBC
 P 6250 6700
 F 0 "C14" H 6365 6746 50  0000 L CNN
-F 1 "Tune" H 6365 6655 50  0000 L CNN
+F 1 "390pF" H 6365 6655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6288 6550 50  0001 C CNN
 F 3 "~" H 6250 6700 50  0001 C CNN
-F 4 "Capacitor, C0G" H 6250 6700 50  0001 C CNN "Description"
-F 5 "~" H 6250 6700 50  0001 C CNN "MPN"
+F 4 "Capacitor, C0G 1%" H 6250 6700 50  0001 C CNN "Description"
+F 5 "GCM1555C1H391FA16D" H 6250 6700 50  0001 C CNN "MPN"
 	1    6250 6700
 	1    0    0    -1  
 $EndComp
@@ -1549,11 +1525,11 @@ L Device:C C13
 U 1 1 60BDEA88
 P 5400 6700
 F 0 "C13" H 5515 6746 50  0000 L CNN
-F 1 "Tune" H 5515 6655 50  0000 L CNN
+F 1 "390pF" H 5515 6655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5438 6550 50  0001 C CNN
 F 3 "~" H 5400 6700 50  0001 C CNN
-F 4 "Capacitor, C0G" H 5400 6700 50  0001 C CNN "Description"
-F 5 "~" H 5400 6700 50  0001 C CNN "MPN"
+F 4 "Capacitor, C0G 1%" H 5400 6700 50  0001 C CNN "Description"
+F 5 "GCM1555C1H391FA16D" H 5400 6700 50  0001 C CNN "MPN"
 	1    5400 6700
 	1    0    0    -1  
 $EndComp
@@ -2081,7 +2057,7 @@ L Device:R_US R4
 U 1 1 60D11B51
 P 6300 2650
 F 0 "R4" V 6095 2650 50  0000 C CNN
-F 1 "0 Ohm" V 6186 2650 50  0000 C CNN
+F 1 "0" V 6186 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6340 2640 50  0001 C CNN
 F 3 "~" H 6300 2650 50  0001 C CNN
 F 4 "Zero Ohm jumper" H 6300 2650 50  0001 C CNN "Description"
@@ -2158,4 +2134,19 @@ Text Notes 650  5650 0    50   ~ 0
 optional
 Text Notes 2100 5650 0    50   ~ 0
 optional
+Wire Wire Line
+	2700 1550 2500 1550
+Connection ~ 2500 1550
+Wire Wire Line
+	2300 1350 2700 1350
+Text Notes 7500 5550 2    50   ~ 0
+2.5V, 1mA
+Text Notes 5650 2800 0    50   ~ 0
+Jumper to avoid vias in ESD area
+Text Notes 2650 4700 0    50   ~ 0
+interrupt config:\nP/P to GND
+Text Notes 10450 4700 0    50   ~ 0
+interrupt config:\nOD, should be\npulled up
+Text Notes 4700 4550 0    50   ~ 0
+interrupt config:\nOD, should be\npulled up
 $EndSCHEMATC
